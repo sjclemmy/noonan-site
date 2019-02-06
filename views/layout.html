@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/Wherestyle.css">
+    <title>Where did all those Arches come from?</title>
+</head>
+<body>
+
+{% include "nav.html" %}
+{% include "right_hand_menu/rh_nav.html" %}
+{% block main %}{% endblock %}
+<div id="fullscreen0" style="width: 1350px; height: 620px; margin:auto; display: none; padding: 0;">
+</div>
+</body>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="javascripts/main.js"></script>
+</html>
