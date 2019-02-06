@@ -1,8 +1,13 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import './bootstrap.css';
+
+.full-size {
+    height: 100vh;
 }
 
-a {
-  color: #00B7FF;
+.side-link {
+    width: 100px;
+    border: 1px solid #ccc;
+}
+
+.right-hand-menu {
 }

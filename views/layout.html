@@ -4,16 +4,40 @@
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylesheets/Wherestyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     <title>Where did all those Arches come from?</title>
 </head>
 <body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-1 border-right">
+        <div class="sticky-top">
+            chapters
+        </div>
 
-{% include "nav.html" %}
-{% include "right_hand_menu/rh_nav.html" %}
-{% block main %}{% endblock %}
+        </div>
+        <div class="col-sm-8 mt-5">
+            <h1 class="bookname text-center">Where Did All Those Arches Come From?</h1>
+            <p class="text-center">To the descendants of John Noonan and Bridget O'Neill,
+                Irish pioneers in Salford from 1851</p>
+            <div class="chapters">
+                {% block main %}{% endblock %}
+            </div>
+
+        </div>
+        <div class="col-sm-3 border-left">
+            {% include "right_hand_menu/rh_nav.html" %}
+        </div>
+    </div>
+
+
+
+</div>
+
 <div id="fullscreen0" style="width: 1350px; height: 620px; margin:auto; display: none; padding: 0;">
 </div>
+
+
 </body>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script src="javascripts/main.js"></script>
