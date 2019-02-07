@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=noonan:* nodemon -e js,html ./bin/www"
+    "start": "DEBUG=noonan:* nodemon -e js,html ./bin/www",
+    "deploy": "rsync -r \"$PWD\" OE:noonan-site"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",

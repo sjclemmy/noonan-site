@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/chapter1', function(req, res, next) {
-  res.render('chapter1/index.html');
+router.get('/chapter2', function(req, res, next) {
+  res.render('chapter2/index.html');
 });
 
 
