@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=noonan:* nodemon -e js,njk ./bin/www",
+    "start": "nodemon -e js,njk ./bin/www",
     "deploy": "rsync -r \"$PWD\"/ OE:noonan-site/"
   },
   "dependencies": {
@@ -14,5 +14,8 @@
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "nunjucks": "^3.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
