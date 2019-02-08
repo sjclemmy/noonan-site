@@ -2,7 +2,7 @@
 
 ## git workflow
 
-* Clone the repository using SourceTree. Once you have a local clone of the repository follow a strict workflow:
+* Clone the repository using ~~SourceTree~~ the github desktop app. Once you have a local clone of the repository follow a strict workflow:
 * Before you start working make sure you do not have any unstaged or uncommited files. 
 * Create a new Branch to work on.
 * Once you are happy stage all your files and then commit all your files.
