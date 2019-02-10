@@ -1,0 +1,228 @@
+<p>Catherine Burgin's godmother at her baptism in 1892 was a Mary Murphy, no address given. Seven years later in 1899, her brother Joseph's godmother
+ was a Sara Murphy, again with no address. But they might have come from the same family, they could even be sisters. Murphy is the oldest family name
+ by which we know Joseph Burgin's mother, Eliza, and may well have been her maiden name. I couldn't resist giving at least a shot at finding a family
+ relationship. So I did the obvious thing and searched for a family of Murphys within reach of St John the Evangelist in Salford, and including a 
+ Mary and a Sara, each old enough to play the required godmother role at the required time.</p>
+ 
+ <p>This produced two candidate families. The first was headed by Patrick Murphy with his wife Mary, and there was a daughter Sarah. Either of these
+ women could have been a godmother, although Mary obviously was not a Murphy by birth. But there were two problems with this candidate. First, 
+ Patrick was too young to have been Eliza's brother (although there could of course been a different relationship). The second is more practical:
+ Patrick and his wife left no indication in any of the three E&W censuses in which they participated of which part of Ireland they came from.</p>
+ <br>
+	<table id="tableQ" 
+	       class="table2" style="float:left;margin-right: 2%;"
+	       title = "view original images"
+	       onclick = "bigimg('fullscreen71', 1, 4, 2, 1253, 892, 'Dennis Murphy family summary 1871-1891.jpg');">
+			    
+			<td colspan="5" class="body1" style="background-color: khaki;"><b>Dennis Murphy's Household, 1 Gregory Street, 1871</b>
+			</td>
+			<tr>
+			<td class="body1">Denis Murphy</td>
+			<td class="body1">Head, married</td>
+			<td class="body1">44</td>
+			<td class="body1">Painter's labourer</td>
+			<td class="body1">Ireland, Bandon, Cork</td>
+			</tr>
+			<tr>
+			<td class="body1">Margaret Murphy</td>
+			<td class="body1">Wife, married</td>
+			<td class="body1">30</td>
+			<td class="body1"></td>
+			<td class="body1">Ireland, Tipperary</td>
+			</tr>
+			<tr>
+			<td class="body1">Denis Murphy</td>
+			<td class="body1">Son</td>
+			<td class="body1">4</td>
+			<td class="body1">Scholar</td>
+			<td class="body1">East India, Bengal</td>
+			</tr>
+			<tr>
+			<td class="body1">Mary Murphy</td>
+			<td class="body1">Daughter</td>
+			<td class="body1">2</td>
+			<td class="body1"></td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+			<tr>
+			<td class="body1">James Murphy</td>
+			<td class="body1">Son</td>
+			<td class="body1">1</td>
+			<td class="body1"></td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+			<tr>
+			<td class="body1">Margaret Murphy</td>
+			<td class="body1">Daughter</td>
+			<td class="body1">2 mths</td>
+			<td class="body1"></td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+			<tr>
+			<td colspan="5" class="body1" style="background-color: khaki;"><b>Dennis Murphy's Household, 7 Sherratt Street, 1881</b>
+			</td>
+			<tr>
+			<td class="body1">Dennis Murphy</td>
+			<td class="body1">Head, married</td>
+			<td class="body1">55</td>
+			<td class="body1">Labourer</td>
+			<td class="body1">Cork</td>
+			</tr>
+			<tr>
+			<td class="body1">Margaret Murphy</td>
+			<td class="body1">Wife, married</td>
+			<td class="body1">40</td>
+			<td class="body1"></td>
+			<td class="body1"><i>ditto, Cork</i></td>
+			</tr>
+			<tr>
+			<td class="body1">Dennis Murphy</td>
+			<td class="body1">Son, single</td>
+			<td class="body1">14</td>
+			<td class="body1">Nipper</td>
+			<td class="body1">Bengal, East India</td>
+			</tr>
+			<tr>
+			<td class="body1">Mary Murphy</td>
+			<td class="body1">Daughter</td>
+			<td class="body1">12</td>
+			<td class="body1">Scholar</td>
+			<td class="body1">Salford</td>
+			</tr>
+			<tr>
+			<td class="body1">James Murphy</td>
+			<td class="body1">Son</td>
+			<td class="body1">12</td>
+			<td class="body1">Scholar</td>
+			<td class="body1">Salford</td>
+			</tr>
+			<tr>
+			<td class="body1">Margaret Murphy</td>
+			<td class="body1">Daughter</td>
+			<td class="body1">11</td>
+			<td class="body1">Scholar</td>
+			<td class="body1">Salford</td>
+			</tr>
+			<tr>
+			<td class="body1">Sarah Murphy</td>
+			<td class="body1">Daughter</td>
+			<td class="body1">10</td>
+			<td class="body1">Scholar</td>
+			<td class="body1">Salford</td>
+			</tr>
+			<tr>
+			<td class="body1">Edward Murphy</td>
+			<td class="body1">Son</td>
+			<td class="body1">8</td>
+			<td class="body1">Scholar</td>
+			<td class="body1">Salford</td>
+			</tr>
+			<tr>
+			<td colspan="5" class="body1" style="background-color: khaki;"><b>Dennis Murphy's Household, 4 Ruby Street, 1891</b>
+			</td>
+			</tr>
+<tr>
+			<td class="body1">Denis Murphy</td>
+			<td class="body1">Head, widower</td>
+			<td class="body1">66</td>
+			<td class="body1">Scavenger</td>
+			<td class="body1">Ireland, Cork</td>
+			</tr>
+			<tr>
+			<td class="body1">Denis Murphy</td>
+			<td class="body1">Son, single</td>
+			<td class="body1">24</td>
+			<td class="body1">Velvet dyer</td>
+			<td class="body1">India, Lucknow</td>
+			</tr>
+			<tr>
+			<td class="body1">Mary Murphy</td>
+			<td class="body1">Daughter, single</td>
+			<td class="body1">22</td>
+			<td class="body1"></td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+			<tr>
+			<td class="body1">Sarah Murphy</td>
+			<td class="body1">Daughter, single</td>
+			<td class="body1">19</td>
+			<td class="body1">Cotton weaver</td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+			<tr>
+			<td class="body1">Edward Murphy</td>
+			<td class="body1">Son</td>
+			<td class="body1">15</td>
+			<td class="body1">Railway checker</td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+			<tr>
+			<td class="body1">James E Murphy</td>
+			<td class="body1">Son</td>
+			<td class="body1">1</td>
+			<td class="body1"></td>
+			<td class="body1">Salford, Lancashire</td>
+			</tr>
+	</table>
+ 	 
+<p style="margin-top:0;">So the other candidate was the one we focused one. This was Dennis Murphy and his wife Margaret. He was much more eligible age-wise, and
+ could easily have been Eliza's brother. That would make his daughters Mary and Sarah cousins of Joseph Burgin. And his census returns were
+ full of fascinating detail which would mean it wouldn't be too hard to track down his origins. I have glued together three of his returns
+ here, covering two decades from 1871 to 1891.</p>
+ 
+ <p>There are quite a few useful facts in these three census records. Dennis Murphy senior was born in Bandon, Cork only a few years either
+ way of 1826. Dennis Murphy junior was born around 1867 in Bengal, maybe near Lucknow, in what is now Bangladesh. This means that Dennis senior
+took the Queen's shilling and joined the British Army in the late 1850s or early 1860s. Many Irishmen decided to do this and then went out for 
+some years to help police the British Empire. One attractive feature of the arrangement was that you could take your wife and family with you.</p>
+
+<p>It was easy to establish from the civil records of the births of Margaret's children in Salford that her maiden name was Kennedy.</p> 
+
+
+<br>
+	<img src = "images/Dennis Murphy Margaret Kennedy marriage Dublin 1863.jpg"
+	width = "600px" 
+	id = "dennm_margk_marr_1863"
+		 title = "Expand and view image"
+		 onclick = "new Viewer(document.getElementById(this.id))">
+	     
+		 
+<p style="margin-top:0">The likelihood was that Dennis had been recruited into the British Army in Ireland, in time for him and Margaret to get to
+ Bengal and have Dennis junior in about 1867. Based on this assumption, we were able to identify a marriage of a Margaret Kennedy and a Dennis
+ Murphy at St Paul's, Dublin on 13 July 1863. He was living at Royal Barracks, and she was living at 7 Temple St.</p>
+ 
+ <p>Denis' father was another Denis, and his place of residence looks very like Bandon. Margaret's father was Edward, but his place of residence is almost
+ illegible - I've not been able to find anywhere in Tipperary with a name which even vaguely matches. Royal Barracks, Dublin became Collins Barracks at 
+ independence in 1922, and now houses one of Ireland's national museums. Prior to independence, it had housed many and various units of the British Army
+ over very many years, and from late 1862 to summer 1863, it housed the 36th (Herefordshire) Foot Regiment (as it was then).</p>
+  <br>
+	<img src = "images/Dennis Murphy baptism Bengal 1867.jpg"
+	width = "600px" 
+	id = "dennmurph_bapt_1867"
+		 title = "Expand and view image"
+		 onclick = "new Viewer(document.getElementById(this.id))">
+	     
+		 
+ <p style="margin-top:0;">Wikipedia and the regimental history websites tell us that 36th Foot received orders for Bengal in June 1863, so Dennis and Margaret must have
+ married in the full knowledge of the international adventure to come. They were shipped out of Queenstown in three vessels during August, and
+ arrived severally in Calcutta (Kolkat) in November and December. They went on to Lucknow arriving in January 1864, but there was a cholera epidemic, 
+ and this led to a decision to split up the company. One part went to Moradabad and another to Shahjehanpore. Unfortunately, cholera also struck both
+ these places in 1867, but we've already seen that the Murphys must have escaped.</p>
+ 
+ <p>On 23 September 1867, a record of Dennis Murphy junior's baptism was taken down in the Catholic Church in a place called Meerut. He had been 
+ born on 12 September to Margaret and Dennis (senior). The record shows that Dennis (senior) was a Private in the 36th and that his place of 
+ residence was Moradabad. But they must have been back in Europe, more specifically Salford, by about 1869, because Dennis and Margaret's second
+ child Mary was born there around then.</p>
+ 
+ <p>While this is all very interesting (to me at least), and gloriously well-evidenced, does it actually get us anywhere in establishing a link
+ between Jospeph Burgin's mother Eliza and the godmothers of his children, Mary and Sarah Murphy? The short and disappointing answer is probably not.
+ It is very difficult to establish any relationship except marriage and parentage from the records left by the Catholic parishes in Ireland. For
+ sibling-ship, very often all that can be done is a one-by-one comparison of all possible combinations of pairs of baptisms from two separate lists.
+ In the current case, I've searched for an Eliza Murphy born to a Dennis around 1819, and a Dennis born to a Dennis around 1826 in or near
+ Bandon, Cork. There were two candidates for Eliza, one baptised in county Wexford, mother Mary Carty, and one in St Mary's church Dublin, mother Mary 
+ (no maiden name given). Restricting the other search to County Cork, there was a Dennis Murphy baptised on 23 September 1838 by a Dennis and Mary 
+ (maiden name Lehane) in Desertserges, an adjacent parish to Bandon.</p>
+ 
+ <p>And that is it. I have clearly not come anywhere near showing there was a familial link between Eliza Murphy and Dennis Murphy. On the other
+ hand, I have not shown that there was none. Facing up to the full facts, we don't even know whether the Mary and Sarah Murphy we started with
+were the godparents in question. But I hope you've enjoyed the digression.</p>
+
