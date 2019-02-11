@@ -1,9 +1,10 @@
-let currentHeight = 0;
-let zoomFactor = 0;
+(function (context) {
+  let currentHeight = 0;
+  let zoomFactor = 0;
 
-function viewImage(imageName) {
+  function viewImage(imageName) {
 
-  const instance = basicLightbox.create(`
+    const instance = basicLightbox.create(`
     <div class="image-modal-container">
     <div class="button-container">
         <button class="zoom-button" onclick="zoom('in')">in</button>
@@ -14,19 +15,17 @@ function viewImage(imageName) {
             <img id="displayed-image" src="${imageName}" />
         </div>
     </div>`
-  ).show();
+    ).show();
 
 
-}
+  }
 
-function viewTable(id) {
+  function viewTable(id) {
 
-  const table = document.querySelector('#'+id).cloneNode(true)
-
-
+    const table = document.querySelector('#' + id).cloneNode(true)
 
 
-  const el =  `
+    const el = `
     <div class="image-modal-container">
     <div class="button-container">
         <button class="zoom-button" onclick="zoom('in')">in</button>
@@ -37,30 +36,29 @@ function viewTable(id) {
         </div>
     </div>`;
 
-  console.log('t', el);
+    console.log('t', el);
 
-  const instance = basicLightbox.create(el).show();
-}
-
-
-function zoom(inOrOut) {
-  const image = document.getElementById('displayed-image');
-  if (currentHeight === 0) {
-    currentHeight = image.offsetHeight;
-    zoomFactor = currentHeight / 2;
-  }
-  if (inOrOut === 'in') {
-    currentHeight = currentHeight + zoomFactor;
-  } else {
-    currentHeight = currentHeight - zoomFactor;
+    const instance = basicLightbox.create(el).show();
   }
 
-  image.style.height = currentHeight + 'px';
-}
 
+  function zoom(inOrOut) {
+    const image = document.getElementById('displayed-image');
+    if (currentHeight === 0) {
+      currentHeight = image.offsetHeight;
+      zoomFactor = currentHeight / 2;
+    }
+    if (inOrOut === 'in') {
+      currentHeight = currentHeight + zoomFactor;
+    } else {
+      currentHeight = currentHeight - zoomFactor;
+    }
 
+    image.style.height = currentHeight + 'px';
+  }
 
+  context.viewImage = viewImage;
+  context.zoom = zoom;
 
-
-
+})(window);
 
