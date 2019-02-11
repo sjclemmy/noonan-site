@@ -7,6 +7,7 @@
     "deploy": "rsync -r \"$PWD\"/ OE:noonan-site/"
   },
   "dependencies": {
+    "basiclightbox": "^5.0.1",
     "bootstrap": "^4.2.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",

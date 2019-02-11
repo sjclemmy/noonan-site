@@ -11,3 +11,26 @@
 
 .right-hand-menu {
 }
+
+.image-container {
+    height: 90vh;
+    overflow: auto;
+}
+
+.image-container img {
+    height: 100%;
+    transition: height 0.2s;
+
+}
+
+.basicLightbox {
+    z-index: 9999;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.zoom-button {
+    display: inline-block;
+}
