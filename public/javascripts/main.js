@@ -22,18 +22,18 @@
 
   function viewTable(id) {
 
-    const table = document.querySelector('#' + id).cloneNode(true)
+    const table = document.querySelector('#' + id).cloneNode(true);
+    console.log('table', table);
 
 
     const el = `
     <div class="image-modal-container">
     <div class="button-container">
-        <button class="zoom-button" onclick="zoom('in')">in</button>
-        <button class="zoom-button" onclick="zoom('out')">out</button>
+
     </div>
-        <div class="image-container">
+        <table class="table">
         ${table.innerHTML}
-        </div>
+        </table>
     </div>`;
 
     console.log('t', el);
@@ -58,6 +58,7 @@
   }
 
   context.viewImage = viewImage;
+  context.viewTable = viewTable;
   context.zoom = zoom;
 
 })(window);

@@ -34,3 +34,7 @@
 .zoom-button {
     display: inline-block;
 }
+
+.image-modal-container {
+    background: #fff;
+}
