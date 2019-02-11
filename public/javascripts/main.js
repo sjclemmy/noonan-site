@@ -23,8 +23,6 @@
   function viewTable(id) {
 
     const table = document.querySelector('#' + id).cloneNode(true);
-    console.log('table', table);
-
 
     const el = `
     <div class="image-modal-container">
@@ -35,8 +33,6 @@
         ${table.innerHTML}
         </table>
     </div>`;
-
-    console.log('t', el);
 
     const instance = basicLightbox.create(el).show();
   }
