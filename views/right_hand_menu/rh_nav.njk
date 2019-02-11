@@ -1,28 +1,9 @@
+{% from "right_hand_menu/quickLink.njk" import quickLink %}
 <aside class="right-hand-menu mt-3 p-4 sticky-top">
-
     <h3 class="mb-4">Quick Links</h3>
-
     <ul class="list-unstyled">
-        <li class="media mb-5">
-            <a class="d-block" href="images/DtA - Annotated.pdf" target ="_blank" title = "Open Down the Arches PDF">
-                <img src="images/DtA for thumbnail.jpg" class="mr-3 side-link" alt="Down The Arches"></a>
-                <div class="media-body">Down the Arches of the Years by Jim Noonan</div>
-
-        </li>
-        <li class="media mb-5">
-                <img id="noonan_tree1" src="images/James-Anty tree.jpg" class="mr-3 side-link" title = "View diagram"
-                onclick = "new Viewer(document.getElementById(this.id))">
-                <div class="media-body">Noonan side family diagram</div>
-
-        </li>
-
-        <li class="media">
-                <img id="big_salford_map1" src="images/Salford - noonan main sites.jpg" class="mr-3 side-link" 
-				title="View map"  onclick = "new Viewer(document.getElementById(this.id))">
-                <div class="media-body">
-                    Map of main sites in Salford
-                </div>
-
-        </li>
+        {% for item in quickLinks %}
+            {{ quickLink(item.title, item.image, item.link) }}
+        {% endfor %}
     </ul>
 </aside>
