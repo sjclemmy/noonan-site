@@ -7,9 +7,11 @@
     const instance = basicLightbox.create(`
     <div class="image-modal-container">
     <div class="button-container">
-        <button class="zoom-button" onclick="zoom('in')">in</button>
-        <button class="zoom-button" onclick="zoom('out')">out</button>  
-        <button class="zoom-button" onclick="download()">download</button>  
+    <div class="btn-group">
+        <button class="zoom-button btn btn-primary btn-sm" onclick="zoom('in')">+</button>
+        <button class="zoom-button btn btn-primary btn-sm" onclick="zoom('out')">-</button>     
+        </div>  
+        <button class="zoom-button btn btn-primary" onclick="download()">download</button>
     </div>
         <div class="image-container">
             <img id="displayed-image" src="${imageName}" />
