@@ -4,6 +4,8 @@
 
   function viewImage(imageName) {
 
+    currentHeight = 0
+
     const instance = basicLightbox.create(`
     <div class="image-modal-container">
     <div class="button-container">
@@ -23,6 +25,8 @@
   }
 
   function viewTable(id) {
+
+    currentHeight = 0
 
     const table = document.querySelector('#' + id).cloneNode(true);
 
