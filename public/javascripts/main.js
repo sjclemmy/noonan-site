@@ -59,9 +59,21 @@
     image.style.height = currentHeight + 'px';
   }
 
+  function toggleChapterMenu() {
+
+    const menu = document.getElementById('chapterMenu');
+
+    if (!menu.classList.contains('show')) {
+      menu.className += ' show';
+    } else {
+      menu.classList.remove('show')
+    }
+  }
+
   context.viewImage = viewImage;
   context.viewTable = viewTable;
   context.zoom = zoom;
+  context.toggleChapterMenu = toggleChapterMenu;
 
 })(window);
 

@@ -10,16 +10,19 @@
     <title>Where did all those Arches come from?</title>
 </head>
 <body>
+
+
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-lg-2 border-right p-0">
-            <div class="sticky-top">
-                <nav class="collapse chapter-nav">
-                    {% include "chapters.njk" %}
-                </nav>
-
-            </div>
-
+        <div class="sticky-top bg-light col-12 col-lg-2 border-right p-0 mt-3">
+            <button class="navbar-toggler d-lg-none sticky" type="button" data-toggle="collapse"
+                    data-target="#chapterMenu" onclick="toggleChapterMenu()"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-primary hamburger"></span>
+            </button>
+            <nav class="collapse chapter-nav d-lg-block" id="chapterMenu">
+                {% include "chapters.njk" %}
+            </nav>
         </div>
         <div class="col-12 col-lg-8 col-xl-7 mt-5">
             <h1 class="bookname text-center">Where Did All Those Arches Come From?</h1>

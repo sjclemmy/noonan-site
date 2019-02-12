@@ -39,5 +39,39 @@
 }
 
 .chapter-nav {
-    display: block!important;
+    transition: all 0.5s;
+    /*display: block!important;*/
+
+}
+
+.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.hamburger {
+
+    fill: #eee;
+    background-color: #0b4961;
+
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    /*content: "";*/
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
+    background-image: url("../images/menu-icon.svg");
+
+/*url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)*/
+
+
+
 }
