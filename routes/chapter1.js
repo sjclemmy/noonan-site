@@ -13,6 +13,9 @@ const links = [
   }, {
     title: 'Map of main sites in Salford',
     image: 'images/Salford - noonan main sites.jpg'
+  }, {
+    title: 'Irish counties and parishes map',
+    image: 'images/Ireland counties and parishes.jpg'
   }
 ]
 
