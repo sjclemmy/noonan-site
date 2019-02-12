@@ -4,6 +4,8 @@
 
   function viewImage(imageName) {
 
+    currentHeight = 0
+
     const instance = basicLightbox.create(`
     <div class="image-modal-container">
     <div class="button-container">
@@ -23,6 +25,8 @@
   }
 
   function viewTable(id) {
+
+    currentHeight = 0
 
     const table = document.querySelector('#' + id).cloneNode(true);
 
@@ -55,9 +59,21 @@
     image.style.height = currentHeight + 'px';
   }
 
+  function toggleChapterMenu() {
+
+    const menu = document.getElementById('chapterMenu');
+
+    if (!menu.classList.contains('show')) {
+      menu.className += ' show';
+    } else {
+      menu.classList.remove('show')
+    }
+  }
+
   context.viewImage = viewImage;
   context.viewTable = viewTable;
   context.zoom = zoom;
+  context.toggleChapterMenu = toggleChapterMenu;
 
 })(window);
 
