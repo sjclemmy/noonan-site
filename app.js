@@ -19,6 +19,11 @@ app.use(express.urlencoded({extended: false}))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 
+app.use((req, res, next) => {
+  res.locals.url = req.url.substr(1,req.url.length);
+  next();
+});
+
 app.use('/', routes)
 
 // catch 404 and forward to error handler
