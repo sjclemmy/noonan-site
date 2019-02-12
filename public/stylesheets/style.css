@@ -37,3 +37,7 @@
 .image-modal-container {
     background: #fff;
 }
+
+.chapter-nav {
+    display: block!important;
+}

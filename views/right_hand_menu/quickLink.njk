@@ -1,5 +1,5 @@
 {% macro quickLink(title, image, link) %}
-    <li class="media mb-5">
+    <li class="media mb-2">
         {% if link %}
             <a class="d-block" href="{{ link }}" target ="_blank" title = "{{ title }}">
                 <img src="{{ image }}" class="mr-3 side-link" alt="{{ title }}"></a>
@@ -7,6 +7,6 @@
             <img id="noonan_tree1" src="{{ image }}" class="mr-3 side-link" title = "View diagram"
                  onclick = "viewImage(this.src)">
         {% endif %}
-        <div class="media-body">{{ title }}</div>
+        <div class="media-body d-none d-xl-block">{{ title }}</div>
     </li>
 {% endmacro %}
