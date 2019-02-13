@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon -e js,njk ./bin/www",
-    "deploy": "rsync -r \"$PWD\"/ OE:noonan-site/"
+    "deploy": "rsync -r --exclude '.git' \"$PWD\"/ OE:noonan-site/"
   },
   "dependencies": {
     "basiclightbox": "^5.0.1",

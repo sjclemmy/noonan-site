@@ -37,6 +37,10 @@
 
 .image-modal-container {
     background: #fff;
+
+}
+.image-container {
+    transition: all 1s;
 }
 
 .chapter-nav {
