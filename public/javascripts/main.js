@@ -13,7 +13,7 @@
         <button class="zoom-button btn btn-primary btn-sm" onclick="zoom('in')">+</button>
         <button class="zoom-button btn btn-primary btn-sm" onclick="zoom('out')">-</button>     
         </div>  
-        <button class="zoom-button btn btn-primary" onclick="download()">download</button>
+        <a class="zoom-button btn btn-primary" rel="noopener nofollow" target="_blank" download href="${imageName}">download</a>
     </div>
         <div class="image-container">
             <img id="displayed-image" src="${imageName}" />
