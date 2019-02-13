@@ -1,26 +1,37 @@
 (function (context) {
   let currentHeight = 0;
   let zoomFactor = 0;
+  let instance;
 
   function viewImage(imageName) {
 
     currentHeight = 0
 
-    const instance = basicLightbox.create(`
+    instance = basicLightbox.create(`
     <div class="image-modal-container">
     <div class="button-container">
     <div class="btn-group">
         <button class="zoom-button btn btn-primary btn-sm" onclick="zoom('in')">+</button>
         <button class="zoom-button btn btn-primary btn-sm" onclick="zoom('out')">-</button>     
         </div>  
-        <a class="zoom-button btn btn-primary" rel="noopener nofollow" target="_blank" download href="${imageName}">download</a>
+        <a class="zoom-button btn btn-primary btn-sm" rel="noopener nofollow" target="_blank" download href="${imageName}">download</a>
+        <button class=" btn btn-primary btn-sm btn-sm" onclick="closeViewer()">close</button>  
     </div>
         <div class="image-container">
             <img id="displayed-image" src="${imageName}" />
         </div>
     </div>`
-    ).show();
+    );
 
+    instance.show();
+
+
+
+  }
+
+  function closeViewer() {
+
+    instance.close();
 
   }
 
@@ -74,6 +85,8 @@
   context.viewTable = viewTable;
   context.zoom = zoom;
   context.toggleChapterMenu = toggleChapterMenu;
+  context.closeViewer = closeViewer;
+
 
 })(window);
 
