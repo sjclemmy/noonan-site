@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <link rel="stylesheet" type="text/css" href="javascripts/blb/basicLightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="javascripts/blb/basicLightbox.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 
     <title>Where did all those Arches come from?</title>
@@ -14,28 +14,36 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="sticky-top bg-light col-12 col-lg-2 border-right p-0 mt-3">
+        <div class="sticky-top col-12 col-lg-2 p-0 mt-0" style="border-right:1px solid sienna;background-color:beige;">
+		
             <button class="navbar-toggler d-lg-none sticky" type="button" data-toggle="collapse"
                     data-target="#chapterMenu" onclick="toggleChapterMenu()"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="text-primary hamburger"></span>
             </button>
             <nav class="collapse chapter-nav d-lg-block sticky-top" id="chapterMenu">
+			<h4 class="mb-2" style="color:#3c3c11;">Contents</h4>
                 {% include "chapters.njk" %}
             </nav>
         </div>
-        <div class="col-12 col-lg-8 col-xl-7 mt-5">
-            <h1 class="bookname text-center">Where Did All Those Arches Come From?</h1>
-            <p class="text-center">To the descendants of John Noonan and Bridget O'Neill,
-                Irish pioneers in Salford from 1851</p>
-            <div class="chapters">
-                <h3 id="chtitle" class="chapname sticky-top bg-light">{% block title %}{% endblock %}</h3>
-
+        <div class="col-12 col-lg-8 mt-0 pl-0 pr-0">
+			<div id="pnhead" class="sticky-top pt-1" 
+			style="color:sienna;background-color:beige;border-bottom:1px solid sienna;">
+            <h1 class="text-center">Where Did All Those Arches Come From?</h1>
+            <p class="text-center"><i>To the descendants of John Noonan and Bridget O'Neill,
+                Irish pioneers in Salford from 1851</i></p>
+                <h3 
+				id="chtitle" 
+				style=
+				"padding-left:3%; padding-top:1%;border-top:1px solid sienna;background-color: #f9f9eb; color:#63331c;">
+				{% block title %}{% endblock %}</h3>
+			</div>
+			<div style="background-image: url('../images/background.jpg');padding-top:1%;">
                 {% block main %}{% endblock %}
             </div>
 
         </div>
-        <div class="col-12 col-lg-2 col-xl-3 border-left">
+        <div class="col-12 col-lg-2 pr-0" style="border-left:1px solid sienna;background-color:beige;">
             {% include "right_hand_menu/rh_nav.njk" %}
         </div>
     </div>
@@ -49,7 +57,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"></script>
 <script src="javascripts/blb/basicLightbox.min.js"></script>
 <script src="javascripts/main.js"></script>
-
 </body>
 
 
