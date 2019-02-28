@@ -16,11 +16,7 @@
     <div class="row">
         <div class="sticky-top col-12 col-lg-2 p-0 mt-0" style="border-right:1px solid sienna;background-color:beige;">
 		
-            <button class="navbar-toggler d-lg-none sticky" type="button" data-toggle="collapse"
-                    data-target="#chapterMenu" onclick="toggleChapterMenu()"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="text-primary hamburger"></span>
-            </button>
+            
             <nav class="collapse chapter-nav d-lg-block sticky-top" id="chapterMenu">
 			<h4 class="mb-2" style="color:#3c3c11;">Contents</h4>
                 {% include "chapters.njk" %}
@@ -29,7 +25,12 @@
         <div class="col-12 col-lg-8 mt-0 pl-0 pr-0">
 			<div id="pnhead" class="sticky-top pt-1" 
 			style="color:sienna;background-color:beige;border-bottom:1px solid sienna;">
-            <h1 class="text-center">Where Did All Those Arches Come From?</h1>
+			<button class="navbar-toggler d-lg-none sticky" type="button" data-toggle="collapse"
+                    data-target="#chapterMenu" onclick="toggleChapterMenu()"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-primary hamburger"></span>
+            </button>
+            <h1 class="text-center d-none d-sm-block">Where Did All Those Arches Come From?</h1>
             <p class="text-center"><i>To the descendants of John Noonan and Bridget O'Neill,
                 Irish pioneers in Salford from 1851</i></p>
                 <h3 
