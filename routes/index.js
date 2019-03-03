@@ -12,6 +12,7 @@ var dig1a = require('./dig1a')
 var dig1b = require('./dig1b')
 var dig3a = require('./dig3a')
 var dig3b = require('./dig3b')
+var dig5a = require('./dig5a')
 
 router.use(chapter1)
 router.use(chapter2)
@@ -24,6 +25,7 @@ router.use(dig1a)
 router.use(dig1b)
 router.use(dig3a)
 router.use(dig3b)
+router.use(dig5a)
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
