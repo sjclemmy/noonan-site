@@ -4,17 +4,20 @@ var router = express.Router();
 
 const links = [
   {
-    title: 'Down the Arches of the Years by Jim Noonan',
+    title: 'Down the Arches, with annotations',
     image: 'images/DtA for thumbnail.jpg',
     link: 'images/DtA - Annotated.pdf'
   }, {
     title: 'Noonan side family diagram',
     image: 'images/James-Anty tree.jpg'
+	}, {
+	title: 'Corcoran side family diagram',
+    image: 'images/Corcoran tree.jpg' 
+	}, {
+    title: 'Map of main sites in SE Manchester',
+    image: 'images/SE Manchester locations.jpg'
   }, {
-    title: 'Map of main sites in Salford',
-    image: 'images/Salford - noonan main sites.jpg'
-  }, {
-    title: 'Irish counties and parishes map',
+    title: 'Locations, counties & Catholic parishes in Ireland',
     image: 'images/Ireland counties and parishes.jpg'
   }
 ]

@@ -3,7 +3,7 @@ var router = express.Router();
 
 const links = [
   {
-    title: 'Down the Arches of the Years by Jim Noonan',
+    title: 'Down the Arches, with annotations',
     image: 'images/DtA for thumbnail.jpg',
     link: 'images/DtA - Annotated.pdf'
   }, {
@@ -13,7 +13,7 @@ const links = [
     title: 'Map of main sites in Salford',
     image: 'images/Salford - noonan main sites.jpg'
   }, {
-    title: 'Irish counties and parishes map',
+    title: 'Locations, counties & Catholic parishes in Ireland',
     image: 'images/Ireland counties and parishes.jpg'
   }
 ]
