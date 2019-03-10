@@ -12,7 +12,7 @@ const links = [
     image: 'images/James-Anty tree.jpg'
 	}, {
 	title: 'Corcoran side family diagram',
-    image: 'images/Corcoran tree.jpg' 
+    image: 'images/Corcoran Tree.jpg' 
 	}, {
     title: 'Map of main sites in SE Manchester',
     image: 'images/SE Manchester locations.jpg'

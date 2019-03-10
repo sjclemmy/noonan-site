@@ -9,7 +9,7 @@ const links = [
     link: 'images/DtA - Annotated.pdf'
   }, {
 	title: 'Corcoran side family diagram',
-    image: 'images/Corcoran tree.jpg' 
+    image: 'images/Corcoran Tree.jpg' 
   }, {    
     title: 'Noonan side family diagram',
     image: 'images/James-Anty tree.jpg'
