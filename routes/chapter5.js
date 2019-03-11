@@ -17,6 +17,9 @@ const links = [
     title: 'Map of main sites in Salford',
     image: 'images/Salford - noonan main sites.jpg'
   }, {
+	title: 'Map of main sites in SE Manchester',
+	image: 'images/SE Manchester locations.jpg',
+  }, {
     title: 'Locations, counties & Catholic parishes in Ireland',
     image: 'images/Ireland counties and parishes.jpg'
   }
