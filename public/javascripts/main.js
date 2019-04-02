@@ -109,55 +109,40 @@
 
 // PN fiddling from here
 
-
 // Chapter 3 accordion
 
-var pooracc = document.getElementsByClassName("poorcard-header");
-var pooracc1 = document.getElementsByClassName("poornoshow");
-var i;
+var accItem = document.getElementsByClassName('accordionItem');
+    var accHD = document.getElementsByClassName('accordionItemHeading');
+    for (i = 0; i < accHD.length; i++) {
+        accHD[i].addEventListener('click', toggleItem, false);
+    }
+    function toggleItem() {
+        var itemClass = this.parentNode.className;
+        for (i = 0; i < accItem.length; i++) {
+            accItem[i].className = 'accordionItem ferme';
+        }
+        if (itemClass == 'accordionItem ferme') {
+            this.parentNode.className = 'accordionItem ouvert';
+        }
+    }
 
-for (i = 0; i < pooracc.length; i++) {
-           pooracc[i].addEventListener("click", function() 
-	             {closeall(i);
-	              this.classList.toggle("active1");
-	              var panel = this.nextElementSibling;
-                  if (panel.style.display === "block")
-				  {panel.style.display = "none";}
-			      else
-				  {panel.style.display = "block";}
-			     }
-				                      );
-				                     }
-	
-
-
-function closeall(z) {
-var p=0;
-
-do	{
-pooracc[p].classList.remove("active1");
-pooracc1[p].style.display = "none";
-p++;
-}
-while (p < pooracc1.length, p != z);
-}
-	
 // Chapter 5 accordion
 
-var clareacc = document.getElementsByClassName("clarecard-header");
-var j;
-
-for (j = 0; j < clareacc.length; j++) {
-    clareacc[j].addEventListener("click", function() 
-	{
-	this.classList.toggle("active2");
-	var panel = this.nextElementSibling;
-    if (panel.style.display === "block") 
-	{panel.style.display = "none";}
-    else 
-	{panel.style.display = "block";}
+var accItem1 = document.getElementsByClassName('accordion1Item');
+    var accHD1 = document.getElementsByClassName('accordion1ItemHeading');
+    for (i = 0; i < accHD1.length; i++) {
+        accHD1[i].addEventListener('click', toggleItem1, false);
     }
-	);
-}
+    function toggleItem1() {
+        var itemClass1 = this.parentNode.className;
+        for (i = 0; i < accItem1.length; i++) {
+            accItem1[i].className = 'accordion1Item ferme';
+        }
+        if (itemClass1 == 'accordion1Item ferme') {
+            this.parentNode.className = 'accordion1Item ouvert';
+        }
+    }
+	
+	
 
 
