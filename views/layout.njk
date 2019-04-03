@@ -18,11 +18,13 @@
 		
             
             <nav class="collapse chapter-nav d-lg-block sticky-top" id="chapterMenu">
-			<h4 class="mb-2" style="color:#3c3c11;">Contents</h4>
+			
                 {% include "chapters.njk" %}
             </nav>
         </div>
+		
         <div class="col-12 col-lg-8 mt-0 pl-0 pr-0">
+		
 			<div id="pnhead" class="sticky-top pt-1" 
 			style="color:sienna;background-color:beige;border-bottom:1px solid sienna;">
 			<button class="navbar-toggler d-lg-none sticky" type="button" data-toggle="collapse"
@@ -39,11 +41,13 @@
 				"padding-left:3%; padding-top:1%;border-top:1px solid sienna;background-color: #f9f9eb; color:#63331c;">
 				{% block title %}{% endblock %}</h3>
 			</div>
+			
 			<div style="background-image: url('../images/background.jpg');padding-top:1%;">
                 {% block main %}{% endblock %}
             </div>
 
         </div>
+		
         <div class="col-12 col-lg-2 pr-0" style="border-left:1px solid sienna;background-color:beige;">
             {% include "right_hand_menu/rh_nav.njk" %}
         </div>
