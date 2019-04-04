@@ -427,8 +427,9 @@ a:hover {
 }
 .ouvert .accordionItemHeading:after 
 {
-  content: '\2716';
-  color: #f9f9eb; 
+  content: '\2715';
+  color: black;
+  font-weight:bold;
   float: right;
   margin-left: 0px;
 }
@@ -552,8 +553,9 @@ a:hover {
 }
 .ouvert .accordion1ItemHeading:after 
 {
-  content: '\2716';
-  color: #f9f9eb; 
+  content: '\2715';
+  color: black; 
+  font-weight:bold;
   float: right;
   margin-left: 0px;
 }
