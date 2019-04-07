@@ -5,7 +5,6 @@ var router = express.Router();
 const links = [
   {
     title: 'Down the Arches, with annotations',
-    image: 'images/DtA for thumbnail.jpg',
     link: 'images/DtA - Annotated.pdf'
   }, {
     title: 'Noonan side family diagram',
@@ -21,9 +20,7 @@ const links = [
 
 /* GET home page. */
 router.get('/chapter1', function (req, res, next) {
-  res.render('chapter1/index.njk', {
-    quickLinks: links
-  });
+  res.render('chapter1/index.njk', {quickLinks: links});
 });
 
 

@@ -97,11 +97,23 @@
       menu.classList.remove('show')
     }
   }
+  
+   function toggleQLinkMenu() {
 
+    const menu = document.getElementById('qLinkMenu');
+
+    if (!menu.classList.contains('show')) {
+      menu.className += ' show';
+    } else {
+      menu.classList.remove('show')
+    }
+  }
+  
   context.viewImage = viewImage;
   context.viewTable = viewTable;
   context.zoom = zoom;
   context.toggleChapterMenu = toggleChapterMenu;
+  context.toggleQLinkMenu = toggleQLinkMenu;
   context.closeViewer = closeViewer;
 
 

@@ -1,9 +1,8 @@
 {% from "right_hand_menu/quickLink.njk" import quickLink %}
-<aside class="sticky-top">
-    <h4 class="mb-2" style="color:#3c3c11;">Quick Links</h4>
-    <ul class="list-unstyled">
+
+         <div class="list-group list-group-flush">
         {% for item in quickLinks %}
             {{ quickLink(item.title, item.image, item.link) }}
         {% endfor %}
-    </ul>
-</aside>
+		</div>
+    

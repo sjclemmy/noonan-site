@@ -45,7 +45,13 @@
 
 .chapter-nav {
     transition: all 0.5s;
-    /*display: block!important;*/
+	/*display: block!important;*/
+
+}
+
+.qlink-nav {
+    transition: all 0.5s;
+	/*display: block!important;*/
 
 }
 
@@ -78,7 +84,30 @@
 /*url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)*/
 
 }
+
+.hamburger1 {
+
+    fill: #eee;
+    background-color: #0b4961;
+
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    /*content: "";*/
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
+    background-image: url("../images/menu-icon.svg");
+
+/*url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)*/
+
+}
 /*PN fiddling below here*/
+
+.collapse1:not(.show) {
+    display: none
+}
 
 p {
     margin-top: 0;
@@ -112,7 +141,7 @@ h6, .h6 {
 	border-right:none; 
 	color: #f9f9eb; 
 	background-color: #3c3c11;
-	border-radius: 5px;}
+	border-radius: 0.25rem;}
 	
 #chapterMenu a:hover {
 	background-color: #140a06; 
@@ -121,18 +150,146 @@ h6, .h6 {
 	font-weight:bold;
 	}
 	
-/* #chapterMenu a:hover:after {
+#chapterMenu a:hover:after {
 	font-size:1.5em;
 	content: ' \003E';
+	float:right;
 	color: white;
-	box-shadow: 0px 0px 2px 2px #140a06;
 	font-weight:bold;
 	margin-left: 0.25rem;
 	margin-bottom:0;
 	padding-bottom:0;
 	}
-*/
 	
+#chapterMenu {
+	position: relative;
+    top: 0;
+    width:100%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0.125rem;
+	}
+	
+@media (min-width: 576px) {
+  #chapterMenu
+  {
+  position: relative;
+    top: 0;
+    width:50%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0.125rem;
+  
+	}
+}
+
+@media (min-width: 768px) {
+ #chapterMenu
+  {
+  position: relative;
+    top: 0;
+    width:30%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0.125rem;
+	} 
+}	
+
+@media (min-width: 992px) {
+ #chapterMenu
+  {
+    position: relative;
+    top: 0;
+    width:99%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0.125rem;
+	} 
+}
+
+#qLinkMenu a {
+	text-decoration:none;
+    padding: 0.5rem 0.25rem;
+    background-color: sienna;
+	color: #f9f9eb; 
+	border:1px solid beige;
+    border-radius: 0.25rem;
+	}
+
+#qLinkMenu a:hover {
+	background-color: #3c3c11;
+	color: white;
+	text-decoration:none;	
+	font-weight:bold;
+	cursor: pointer; 
+	}
+
+	
+#qLinkMenu button {
+	text-decoration:none;
+    padding: 0.5rem 0.25rem;
+    background-color: sienna;
+	color: #f9f9eb; 
+	border:1px solid beige;
+    border-radius: 0.25rem;
+	}
+	
+			
+#qLinkMenu button:hover {
+	background-color: #3c3c11;
+	color: white;
+	text-decoration:none;	
+	font-weight:bold;
+	cursor: pointer; 
+	}
+
+		
+#qLinkMenu {
+	position: relative;
+    top: 0;
+    width:100%;
+    left: 0;
+	margin-top: 0;
+    margin-right: 0.125rem;
+	}
+	
+@media (min-width: 576px) {
+  #qLinkMenu
+  {
+  position: relative;
+    top: 0;
+    left: 0;
+	width:50%;
+    margin-top: 0;
+    margin-right: 0.125rem;
+  
+	}
+}
+
+@media (min-width: 768px) {
+ #qLinkMenu
+  {
+  position: relative;
+    top: 0;
+    left: 0;
+    width: 30%;
+	margin-top: 0;
+    margin-right: 0.125rem;
+	} 
+}	
+
+@media (min-width: 992px) {
+ #qLinkMenu
+  {
+    position: relative;
+    top: 0;
+    width:100%;
+    left: 0;
+    margin-top: 0;
+    margin-right: 0.125rem;
+	} 
+}
+
 .imgborder {
     border:1px solid sienna;
 }
@@ -570,7 +727,6 @@ a:hover {
 }
 .armypic {
     padding: 0.75rem 1.0rem;
-    margin-bottom: 0;
     background-color: sienna;
 	color: #f9f9eb; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
