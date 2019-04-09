@@ -18,7 +18,7 @@
 	
         <div class="col-12 col-lg-3 p-0 mt-0 sticky-top align-self-start" 
 		     style="border-right:1px solid sienna;
-            		background-color:beige;">
+            		background-color:transparent;">
             
 			<div class="collapse chapter-nav d-lg-block" 
 			     id="chapterMenu">
@@ -30,10 +30,18 @@
 		
         <div class="col-12 col-lg-8 mt-0 pl-0 pr-0">
 		
-			<div id="pnhead" class="sticky-top pt-1" style="color:sienna;background-color:beige;
-			border-bottom:1px solid sienna;">
 			
-		<button class="navbar-toggler d-lg-none float-left" type="button" data-toggle="collapse"
+		<div class="sticky-top">			
+		
+			
+			<h1 class="text-center d-none d-lg-block pt-1 m-0" style="background-color:beige;">
+			Where Did All Those Arches Come From?</h1>
+			
+			<div style="background-color:beige;">
+            <p class="text-center d-none d-lg-block m-0" >
+			<i>To the descendants of John Noonan and Bridget O'Neill, Irish pioneers in Salford from 1851</i></p>
+			</div>
+                <button class="navbar-toggler d-lg-none float-left" type="button" data-toggle="collapse"
                     data-target="#chapterMenu" onclick="toggleChapterMenu()">
                <!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <span class="hamburger"></span>
@@ -44,16 +52,15 @@
                <!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <span class="hamburger1"></span>
             </button>
-			
-			<h1 class="text-center">Where Did All Those Arches Come From?</h1>
-            <p class="text-center"><i>To the descendants of John Noonan and Bridget O'Neill,
-                Irish pioneers in Salford from 1851</i></p>
-                <h3 
-				id="chtitle" 
+				<h3 
+				id="chtitle"
 				style=
-				"padding-left:3%; padding-top:1%;border-top:1px solid sienna;background-color: #f9f9eb; color:#63331c;">
+				"padding-left:3%; padding-top:0.3rem;padding-bottom:0.3rem; border-top:1px solid sienna; 
+				border-bottom:1px solid sienna; background-color: #f9f9eb; color:#63331c;margin-bottom:0;">
 				{% block title %}{% endblock %}</h3>
-			</div>
+				
+				</div>
+			
 			
 			<div style="background-image: url('../images/background.jpg');padding-top:1%;">
                 {% block main %}{% endblock %}
@@ -64,10 +71,10 @@
         <div class="col-12 col-lg-1 p-0 mt-0 sticky-top align-self-start" 
 		style="border-left:1px solid sienna;
 		background-color:beige;">
-		<nav class="collapse qlink-nav d-lg-block" 
+		<div class="collapse qlink-nav d-lg-block" 
 		     id="qLinkMenu">
 		        {% include "right_hand_menu/rh_nav.njk" %}
-		</nav>
+		</div>
         </div>
     </div>
 
