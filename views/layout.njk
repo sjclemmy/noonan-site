@@ -43,22 +43,22 @@
             <p class="text-center d-none d-lg-block m-0" >
 			<i>To the descendants of John Noonan and Bridget O'Neill, Irish pioneers in Salford from 1851</i></p>
 			</div>
-                <button class="navbar-toggler d-lg-none float-left" 
-				        type="button" 
-						onclick="toggleChapMenus('chapmenu');">
-						
-               <!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+                <button id ="lhburger" 
+				        class="navbar-toggler d-lg-none float-left" 
+				        type="button"
+						onclick="toggleburger('chapmenu');">
+				<!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <span class="hamburger"></span>
             </button>
             
-			<button class="navbar-toggler d-lg-none float-right" 
-			        type="button"  
-					onclick="toggleChapMenus('qlmenu');">
+			<button id="rhburger"
+			        class="navbar-toggler d-lg-none float-right"
+			        type="button"
+					onclick="toggleburger('qlmenu')";>
                <!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
-                <span class="hamburger1"></span>
+                <span class="hamburger"></span>
             </button>
 				<h3 
-				id="chtitle"
 				style=
 				"padding-left:3%; padding-top:0.3rem;padding-bottom:0.3rem; border-top:1px solid sienna; 
 				border-bottom:1px solid sienna; background-color: #f9f9eb; color:#63331c;margin-bottom:0;">
@@ -67,16 +67,20 @@
 				</div>
 			
 			
-			<div style="background-image: url('../images/background.jpg');padding-top:1%;">
+			<div style="background-image: url('../images/background.jpg');">
+			
 			
 			<div id="chapmenu" 
-			     class="sticky-top float-left d-lg-none">
+			     class="d-lg-none">
 			{% include "chapters.njk" %}
 			</div>
+			
 			<div id="qlmenu" 
-			     class="sticky-top float-right d-lg-none">
+			     class="d-lg-none"
+				 onclick="vanish(this);">
 			{% include "right_hand_menu/rh_nav.njk" %}
 			</div>
+			
                 {% block main %}{% endblock %}
             </div>
 

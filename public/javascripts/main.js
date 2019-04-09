@@ -133,26 +133,31 @@ var accItem1 = document.getElementsByClassName('accordion1Item');
         }
     }
 	
-function toggleChapMenus(x) {
+// Burger menus toggler
 
-    var menu = document.getElementById(x);
+function toggleburger(x) {
+var menuElt = document.getElementById(x);
+	
+if (x == 'chapmenu')	
+{var menuEltA = document.getElementById('qlmenu');
+menuEltA.style.display = 'none';}
+else
+{var menuEltB = document.getElementById('chapmenu');
+menuEltB.style.display = 'none';}
 
-    if (document.menu.style.display == 'none') {
-      document.menu.style.display = 'block';
-    } else {
-      document.menu.style.display = 'none';
-    }
-  }
+if (menuElt.style.display == 'none') 
+   {menuElt.style.display = 'block';}
+else
+	{menuElt.style.display = 'none';}
+}
+
+function vanish(x) {
+	x.style.display = 'none';
+}
+
+ // end burger toggler   
   
-  /* function toggleQLinkMenu() {
-
-    var menu = document.getElementById('qLinkMenu');
-
-    if (!menu.classList.contains('show')) {
-      menu.className += ' show';
-    } else {
-      menu.classList.remove('show')
-    }
-  }	*/
+  
+  
 
 
