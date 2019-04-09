@@ -133,18 +133,18 @@ var accItem1 = document.getElementsByClassName('accordion1Item');
         }
     }
 	
-function toggleChapterMenu() {
+function toggleChapMenus(x) {
 
-    var menu = document.getElementById('chapterMenu');
+    var menu = document.getElementById(x);
 
-    if (!menu.classList.contains('show')) {
-      menu.className += ' show';
+    if (document.menu.style.display == 'none') {
+      document.menu.style.display = 'block';
     } else {
-      menu.classList.remove('show')
+      document.menu.style.display = 'none';
     }
   }
   
-   function toggleQLinkMenu() {
+  /* function toggleQLinkMenu() {
 
     var menu = document.getElementById('qLinkMenu');
 
@@ -153,6 +153,6 @@ function toggleChapterMenu() {
     } else {
       menu.classList.remove('show')
     }
-  }	
+  }	*/
 
 

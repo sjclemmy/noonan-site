@@ -132,6 +132,20 @@ h6, .h6 {
 	margin-left: 3%;
 	margin-bottom:2px;
 }
+
+/* LEFT SIDEBAR CHAPTER MENU */
+@media (min-width: 992px) {
+ #chapterMenu
+  {
+    position: relative;
+    top: 0;
+    width:99%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0.125rem;
+	} 
+}
+
 #chapterMenu a {
 	margin-top:0;
 	text-decoration:none;
@@ -161,54 +175,20 @@ h6, .h6 {
 	padding-bottom:0;
 	}
 	
-#chapterMenu {
-	position: relative;
-    top: 2.3rem;
-    width:100%;
-    left: 0;
-    margin-top: 0;
-    margin-left: 0.125rem;
-	background-color:transparent;
-	}
+/* RIGHT SIDEBAR LINK MENU */
 	
-@media (min-width: 576px) {
-  #chapterMenu
-  {
-  position: relative;
-    top: 2.3rem;
-    width:50%;
-    left: 0;
-    margin-top: 0;
-    margin-left: 0.125rem;
-  background-color:transparent;
-	}
-}
-
-@media (min-width: 768px) {
- #chapterMenu
-  {
-  position: relative;
-    top: 2.3rem;
-    width:35%;
-    left: 0;
-    margin-top: 0;
-    margin-left: 0.125rem;
-	background-color:transparent;
-	} 
-}	
-
 @media (min-width: 992px) {
- #chapterMenu
+ #qLinkMenu
   {
     position: relative;
     top: 0;
-    width:99%;
+    width:100%;
     left: 0;
     margin-top: 0;
-    margin-left: 0.125rem;
+    margin-right: 0.125rem;
 	} 
-}
-
+}	
+	
 #qLinkMenu a {
 	text-decoration:none;
     padding: 0.5rem 0.25rem;
@@ -235,9 +215,93 @@ h6, .h6 {
 	border:1px solid beige;
     border-radius: 0.25rem;
 	}
-	
-			
+				
 #qLinkMenu button:hover {
+	background-color: #3c3c11;
+	color: white;
+	text-decoration:none;	
+	font-weight:bold;
+	cursor: pointer; 
+	}	
+	
+/* LEFT ICON CHAPTER MENU */	
+	
+#chapmenu {
+	width:100%;
+    margin-top: 0;
+    margin-left: 0.125rem;
+	background-color:transparent;
+	display:none;
+	}
+	
+@media (min-width: 576px) {
+  #chapmenu
+  {width:50%}
+}
+
+@media (min-width: 768px) {
+ #chapmenu
+  {width:35%;} 
+}	
+#chapmenu a {
+	margin-top:0;
+	text-decoration:none;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	border:1px solid beige; 
+	border-right:none; 
+	color: #f9f9eb; 
+	background-color: #3c3c11;
+	border-radius: 0.25rem;}
+	
+#chapmenu a:hover {
+	background-color: #140a06; 
+	color: white;
+	box-shadow: 0px 0px 2px 2px #140a06;
+	font-weight:bold;
+	}
+	
+#chapmenu a:hover:after {
+	font-size:1.5em;
+	content: ' \003E';
+	float:right;
+	color: white;
+	font-weight:bold;
+	margin-left: 0.25rem;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+/* RIGHT ICON LINK MENU */
+			
+#qlmenu {
+	width:100%;
+    margin-top: 0;
+    margin-right: 0.125rem;
+	background-color: transparent;
+	display:none;
+	}
+	
+@media (min-width: 576px) {
+  #qlmenu
+  {width:50%;}
+}
+
+@media (min-width: 768px) {
+ #qlmenu
+  {width: 35%;} 
+}	
+
+#qlmenu a {
+	text-decoration:none;
+    padding: 0.5rem 0.25rem;
+    background-color: sienna;
+	color: #f9f9eb; 
+	border:1px solid beige;
+    border-radius: 0.25rem;
+	}
+
+#qlmenu a:hover {
 	background-color: #3c3c11;
 	color: white;
 	text-decoration:none;	
@@ -245,52 +309,23 @@ h6, .h6 {
 	cursor: pointer; 
 	}
 
-		
-#qLinkMenu {
-	position: relative;
-    top: 2.3 rem;
-    width:100%;
-    left: 0;
-	margin-top: 0;
-    margin-right: 0.125rem;
-	}
 	
-@media (min-width: 576px) {
-  #qLinkMenu
-  {
-  position: relative;
-    top: 2.3rem;
-    left: 0;
-	width:50%;
-    margin-top: 0;
-    margin-right: 0.125rem;
-  
+#qlmenu button {
+	text-decoration:none;
+    padding: 0.5rem 0.25rem;
+    background-color: sienna;
+	color: #f9f9eb; 
+	border:1px solid beige;
+    border-radius: 0.25rem;
 	}
-}
-
-@media (min-width: 768px) {
- #qLinkMenu
-  {
-  position: relative;
-    top: 2.3rem;
-    left: 0;
-    width: 35%;
-	margin-top: 0;
-    margin-right: 0.125rem;
-	} 
-}	
-
-@media (min-width: 992px) {
- #qLinkMenu
-  {
-    position: relative;
-    top: 0;
-    width:100%;
-    left: 0;
-    margin-top: 0;
-    margin-right: 0.125rem;
-	} 
-}
+				
+#qlmenu button:hover {
+	background-color: #3c3c11;
+	color: white;
+	text-decoration:none;	
+	font-weight:bold;
+	cursor: pointer; 
+	}	
 
 .imgborder {
     border:1px solid sienna;

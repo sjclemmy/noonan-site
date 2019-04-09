@@ -20,7 +20,7 @@
 		     style="border-right:1px solid sienna;
             		background-color:transparent;">
             
-			<div class="collapse chapter-nav d-lg-block" 
+			<div class="d-none d-lg-block" 
 			     id="chapterMenu">
 				{% include "chapters.njk" %}
             </div>
@@ -36,19 +36,24 @@
 			
 			<h1 class="text-center d-none d-lg-block pt-1 m-0" style="background-color:beige;">
 			Where Did All Those Arches Come From?</h1>
+			<h3 class="text-center d-lg-none pt-1 m-0" style="background-color:beige;">
+			Where Did All Those Arches Come From?</h3>
 			
 			<div style="background-color:beige;">
             <p class="text-center d-none d-lg-block m-0" >
 			<i>To the descendants of John Noonan and Bridget O'Neill, Irish pioneers in Salford from 1851</i></p>
 			</div>
-                <button class="navbar-toggler d-lg-none float-left" type="button" data-toggle="collapse"
-                    data-target="#chapterMenu" onclick="toggleChapterMenu()">
+                <button class="navbar-toggler d-lg-none float-left" 
+				        type="button" 
+						onclick="toggleChapMenus('chapmenu');">
+						
                <!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <span class="hamburger"></span>
             </button>
             
-			<button class="navbar-toggler d-lg-none float-right" type="button" data-toggle="collapse"
-                    data-target="#qLinkMenu" onclick="toggleQLinkMenu()">
+			<button class="navbar-toggler d-lg-none float-right" 
+			        type="button"  
+					onclick="toggleChapMenus('qlmenu');">
                <!--     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <span class="hamburger1"></span>
             </button>
@@ -63,6 +68,15 @@
 			
 			
 			<div style="background-image: url('../images/background.jpg');padding-top:1%;">
+			
+			<div id="chapmenu" 
+			     class="sticky-top float-left d-lg-none">
+			{% include "chapters.njk" %}
+			</div>
+			<div id="qlmenu" 
+			     class="sticky-top float-right d-lg-none">
+			{% include "right_hand_menu/rh_nav.njk" %}
+			</div>
                 {% block main %}{% endblock %}
             </div>
 
@@ -71,7 +85,7 @@
         <div class="col-12 col-lg-1 p-0 mt-0 sticky-top align-self-start" 
 		style="border-left:1px solid sienna;
 		background-color:beige;">
-		<div class="collapse qlink-nav d-lg-block" 
+		<div class="d-none d-lg-block" 
 		     id="qLinkMenu">
 		        {% include "right_hand_menu/rh_nav.njk" %}
 		</div>
