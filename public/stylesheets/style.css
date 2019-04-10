@@ -76,6 +76,48 @@
 
 /*PN fiddling below here*/
 
+.bookname{
+	background-color:beige;
+	font-size:1rem;
+	font-weight:550;
+}
+
+@media (min-width: 576px) {
+  .bookname
+  {font-size: 1.5rem;
+  font-weight:475;}
+}
+
+@media (min-width: 992px) {
+  .bookname
+  {font-size: 2.1875rem;
+  font-weight:400;}
+}
+
+.chapname{
+   font-size:1rem;
+   font-weight:500;
+   padding-left:3%; 
+   padding-top:0.3rem;
+   padding-bottom:0.3rem; 
+   border-top:1px solid sienna;
+   border-bottom:1px solid sienna; 
+   background-color: #f9f9eb; 
+   color:#63331c;
+   margin-bottom:0;}
+   
+ @media (min-width: 576px) {
+  .chapname
+  {font-size: 1.3rem;
+  font-weight:450;}
+}
+
+@media (min-width: 992px) {
+  .chapname
+  {font-size: 1.53125rem;
+  font-weight:400;}
+}  
+      
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -218,14 +260,32 @@ h6, .h6 {
 #chapmenu a {
 	margin-top:0;
 	text-decoration:none;
-	padding-top:0.5rem;
-	padding-bottom:0.5rem;
+	padding-top:0rem;
+	padding-bottom:0rem;
 	border:1px solid beige; 
 	border-right:none; 
 	color: #f9f9eb; 
 	background-color: #3c3c11;
 	border-radius: 0.25rem;}
 	
+@media (min-width: 576px) {
+  #chapmenu a
+  {padding-top: 0.1rem;
+  padding-bottom: 0.1rem;}
+}
+
+@media (min-width: 768px) {
+ #chapmenu a
+  {padding-top: 0.3rem;
+  padding-bottom: 0.3rem;} 
+}
+  
+@media (min-width: 992px) {
+ #chapmenu a
+  {padding-top: 0.5rem;
+  padding-bottom: 0.5rem;} 
+}
+  
 #chapmenu a:hover {
 	background-color: #140a06; 
 	color: white;
@@ -270,12 +330,30 @@ h6, .h6 {
 
 #qlmenu a {
 	text-decoration:none;
-    padding: 0.5rem 0.25rem;
+    padding: 0rem 0.25rem;
     background-color: sienna;
 	color: #f9f9eb; 
 	border:1px solid beige;
     border-radius: 0.25rem;
 	}
+	
+@media (min-width: 576px) {
+  #qlmenu a
+  {padding-top: 0.1rem;
+  padding-bottom: 0.1rem;}
+}
+
+@media (min-width: 768px) {
+ #qlmenu a
+  {padding-top: 0.3rem;
+  padding-bottom: 0.3rem;} 
+}
+  
+@media (min-width: 992px) {
+ #qlmenu a
+  {padding-top: 0.5rem;
+  padding-bottom: 0.5rem;} 
+}
 
 #qlmenu a:hover {
 	background-color: #3c3c11;
@@ -288,13 +366,31 @@ h6, .h6 {
 	
 #qlmenu button {
 	text-decoration:none;
-    padding: 0.5rem 0.25rem;
+    padding: 0rem 0.25rem;
     background-color: sienna;
 	color: #f9f9eb; 
 	border:1px solid beige;
     border-radius: 0.25rem;
 	}
-				
+	
+@media (min-width: 576px) {
+  #qlmenu button
+  {padding-top: 0.1rem;
+  padding-bottom: 0.1rem;}
+}
+
+@media (min-width: 768px) {
+ #qlmenu button
+  {padding-top: 0.3rem;
+  padding-bottom: 0.3rem;} 
+}
+  
+@media (min-width: 992px) {
+ #qlmenu button
+  {padding-top: 0.5rem;
+  padding-bottom: 0.5rem;} 
+}	
+		
 #qlmenu button:hover {
 	background-color: #3c3c11;
 	color: white;

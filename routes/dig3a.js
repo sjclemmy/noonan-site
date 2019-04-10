@@ -13,10 +13,10 @@ const links = [
     title: 'Noonan side family diagram',
     image: 'images/James-Anty tree.jpg'
   }, {
-    title: 'Map of main sites in Salford',
+    title: 'Salford locations: map',
     image: 'images/Salford - noonan main sites.jpg'
   }, {
-    title: 'Locations, counties & Catholic parishes in Ireland',
+    title: 'Ireland locations: map',
     image: 'images/Ireland counties and parishes.jpg'
   }
 ]

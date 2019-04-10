@@ -11,7 +11,7 @@ const links = [
     title: 'Noonan side family diagram',
     image: 'images/James-Anty tree.jpg'
   }, {
-    title: 'Locations, counties & Catholic parishes in Ireland',
+    title: 'Ireland locations: map',
     image: 'images/Ireland counties and parishes.jpg'
   }
 ]
