@@ -1,7 +1,7 @@
 {% from "right_hand_menu/quickLink.njk" import quickLink %}
 
          <div class="list-group list-group-flush">
-		 <p style="color:sienna;background-color:beige; font-size: 1.2em; margin:0;">
+		 <p class="text-center" style="color:sienna;background-color:beige; font-size: 1.2em; margin:0;">
 		 <u>QuickLinks</u></p>
         {% for item in quickLinks %}
             {{ quickLink(item.title, item.image, item.link) }}
