@@ -18,6 +18,9 @@ const links = [
   }, {
     title: 'Ireland locations: map',
     image: 'images/Ireland counties and parishes.jpg'
+  },  {
+    title: 'Master map page',
+    link: './maps'
   }
 ]
 /* GET home page. */

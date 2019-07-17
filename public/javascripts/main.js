@@ -158,6 +158,12 @@ function vanish(x) {
  // end burger toggler   
   
   
-  
+ //map movement opacity 
 
+function opaque(x) {
+	x.style.opacity = 1.0;
+}
 
+function translucent(x) {
+	x.style.opacity = 0.5;
+}

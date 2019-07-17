@@ -13,8 +13,14 @@ const links = [
     title: 'Salford locations: map',
     image: 'images/Salford - noonan main sites.jpg'
   }, {
-    title: 'Ireland locations: map',
-    image: 'images/Ireland counties and parishes.jpg'
+    title: '1840s Pendleton: map',
+    image: 'images/1840s Pendleton.jpg'
+  }, {
+    title: '1890s Pendleton: map',
+    image: 'images/1890s Pendleton.jpg'
+  },  {
+    title: 'Master map page',
+    link: './maps'
   }
 ]
 
